@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Empreste Mais</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css/index_style.css">
+    <title>Coisas Emprestadas</title>
+</head>
+
+<body>
+    <section class="cabecalho">
+        <div id="imagem_logo"><img src="../img/logo.png" id="logoSite" alt="logotipo"></div>
+        <div id="titulo_pagina"><strong>Ajude Mais</strong></div>
+        <div id="acesso_site">
+            <form action="getform.php" method="post" nome="formulario_login">
+            <p id="campo_login"><strong>Login: </strong>
+            <input type="email" id="email_usuario" value="Digite seu e-mail"><br><br>
+            <strong>Senha: </strong><input type="password" value="Senha"><br><br>
+            <input type="submit" id="botao1" value="Entrar" />
+            <a href="cadastro_usuario.html"><input type="button" id="botao2" value="Fazer novo cadastro"></a></p>
+            </form>
+        </div>
+    </section><br>
+    
+    <section class="corpo">
+        <h1 id="texto_inicio">Empreste seus objetos e pegue itens emprestados</h1><br><br>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+              <img src="../img/roupas.jpg" style="width:100%" class="fotos">
+              <div class="text"><strong>Vestuário</strong></div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="../img/livros.jpg" style="width:100%" class="fotos">
+              <div class="text"><strong>Materiais para estudo</strong></div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="../img/objetos.jpg" style="width:100%" class="fotos">
+              <div class="text"><strong>Objetos em geral</strong></div>
+            </div>
+
+            <div class="mySlides">
+                <img src="../img/ferramentas.jpg" style="width:100%" class="fotos">
+                <div class="text"><strong>Ferramentas</strong></div>
+              </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span>  
+            </div>
+
+            <script src="../js/carousel.js"></script>
+            
+    </section>
+
+
+  </body>
+</html>
